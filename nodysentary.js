@@ -9,7 +9,7 @@ var http = require( "http" ),
     options = {
   		host: "search.twitter.com",
   		port: 80,
-  		path: "/search.json?q=jsconf&rpp=1",
+  		path: "/search.json?q=poopin&rpp=1",
   		method: "GET"
 		}, 
 		lastId = 0;
@@ -19,7 +19,7 @@ function makeRequest() {
 	var req = http.request(options, function(res) {
 
 	  res.on("data", function ( chunk ) {
-      
+
 			// If we get a garbled chunk of data, then fuck it, wait til next time
 			try {
 		    var data = JSON.parse( chunk );
