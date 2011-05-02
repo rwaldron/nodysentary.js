@@ -1,8 +1,8 @@
 {
 	"name": "nodysentary",
-	"description": "Poop the latest #jsconf messages to your command line",
-	"keywords": [ "jsconf", "poop", "dysentary" ],
-	"version": "0.0.1",
+	"description": "You have died of dysentary",
+	"keywords": [ "jsconf", "oregon trail", "dysentary" ],
+	"version": "0.1.0",
 	"homepage": "https://github.com/rwldrn/nodysentary",
 	"author": "Rick Waldron (http://twitter.com/rwaldron)",
 	"bin": { "nodysentary": "nodysentary.js" },
