@@ -5,7 +5,7 @@
 	"version": "0.0.1",
 	"homepage": "https://github.com/rwldrn/nodysentary",
 	"author": "Rick Waldron (http://twitter.com/rwaldron)",
-	"bin": { "nodysentary": "./nodysentary.js" },
+	"bin": { "nodysentary": "nodysentary.js" },
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/rwldrn/nodysentary.js.git"
