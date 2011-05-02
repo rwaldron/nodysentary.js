@@ -18,7 +18,7 @@ function makeRequest() {
 
   var req = http.request(options, function(res) {
 
-	  res.on("data", function ( chunk ) {
+    res.on("data", function ( chunk ) {
 
       // If we get a garbled chunk of data, then fuck it, wait til next time
       try {
@@ -41,7 +41,7 @@ function makeRequest() {
         });
 
       } catch(e) {
-				//whatevs for now...
+        //whatevs for now...
       }
     });
   });
