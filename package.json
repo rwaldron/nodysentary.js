@@ -1,0 +1,18 @@
+{
+	"name": "nodysentary",
+	"description": "Poop the latest #jsconf messages to your command line",
+	"keywords": [ "jsconf", "poop", "dysentary" ],
+	"version": "0.0.1",
+	"homepage": "https://github.com/rwldrn/nodysentary",
+	"author": "Rick Waldron (http://twitter.com/rwaldron)",
+	"bin": { "nodysentary": "./nodysentary.js" },
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/rwldrn/nodysentary.js.git"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "https://github.com/rwldrn/nodysentary.js/blob/master/LICENSE"
+	}]
+}
+
