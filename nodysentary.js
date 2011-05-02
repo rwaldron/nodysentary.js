@@ -16,7 +16,7 @@ var http = require( "http" ),
 
 function makeRequest() {
 
-	var req = http.request(options, function(res) {
+  var req = http.request(options, function(res) {
 
 	  res.on("data", function ( chunk ) {
 
@@ -25,7 +25,7 @@ function makeRequest() {
         var data = JSON.parse( chunk );
 
         data.results.forEach(function( tweet ) {
-					if ( tweet.id > lastId ) {
+          if ( tweet.id > lastId ) {
 						
             // Terminal dysentary
             console.log(
